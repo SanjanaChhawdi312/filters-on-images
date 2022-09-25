@@ -1,0 +1,27 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1><em>Change with Filters<em/></h1>
+
+<canvas id = "ican">
+</canvas>
+<canvas id = "ocan">
+</canvas>
+<p>
+Original image : <input type="file" multiple="false" accept="image/*" id="ifile" onchange="loadImage()" >
+Changed image : 
+</p>
+
+ <H2>Choose Filter</H2>
+<input type="button" value="Gray" onclick="changeGray()" >
+<input type="button" value="Rainbow" onclick="changeRainbow()" >
+<input type="button" value="Blur" onclick="changeBlur()" ><br>
+<input type="button" value="Red" onclick="changeRed()" >
+<input type="button" value="Hue" onclick="changeHue()" >
+<input type="button" value="Black Frame" onclick="change()" ><br>
+<input type="button" value="Reset image" onclick="reset()" >
+<input type="button" value="Clear image" onclick="clearCanvas()" >
+</p>
+<p>
+<br>
+<br>

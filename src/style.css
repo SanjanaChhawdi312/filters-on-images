@@ -1,0 +1,42 @@
+body {
+  background-color: #659DBD;
+  font-family: Verdana;
+  margin: 50px;
+  font-size:25px;
+}
+
+canvas {
+  border: 5px solid black;
+  height: 500px;
+  background-color: white;
+  display: block-inline;
+  padding: 10px;
+  margin: auto;
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+  border: 4px solid black;
+  background-color: #F5E6CC;
+  color:black;
+  width:100 px;
+  font-family: Times New Roman;
+}
+
+input {
+  width :220px;
+  background-color: #EAE7DC;
+  border: 2px solid black;
+  font-size:28px;
+  padding: 6px;
+  border-radius: 13px;
+  margin: 8px;
+  display:inline-block;
+}
+#ifile{
+  width :352px;
+  padding:0px;
+  font-size:20px;
+  
+}
